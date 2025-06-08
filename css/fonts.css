@@ -1,0 +1,47 @@
+@font-face {
+    font-family: "font-family";
+    src: local("EuclidCircularB-Medium"), url("../fonts/EuclidCircularB-Medium.woff2") format("woff2"), url("../fonts/EuclidCircularB-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "font-family";
+    src: local("EuclidCircularB-Regular"), url("../fonts/EuclidCircularB-Regular.woff2") format("woff2"), url("../fonts/EuclidCircularB-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Zt Chablis';
+    src: local('Zt Chablis Medium'), local('ZtChablis-Medium'), url('../fonts/ZtChablis-Medium.woff2') format('woff2'), url('../fonts/ZtChablis-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Zt Chablis';
+    src: local('Zt Chablis Regular'), local('ZtChablis-Regular'), url('../fonts/ZtChablis-Regular.woff2') format('woff2'), url('../fonts/ZtChablis-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Zt Chablis';
+    src: local('Zt Chablis Bold'), local('ZtChablis-Bold'), url('../fonts/ZtChablis-Bold.woff2') format('woff2'), url('../fonts/ZtChablis-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Zt Chablis';
+    src: local('Zt Chablis Semi Bold'), local('ZtChablis-SemiBold'), url('../fonts/ZtChablis-SemiBold.woff2') format('woff2'), url('../fonts/ZtChablis-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
