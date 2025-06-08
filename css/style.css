@@ -958,6 +958,9 @@
             font-size: 12px;
         }
         /* ===== */
+        .header_wrapper {
+            padding: 18px 15px;
+        }
         .header_inner .header_tablet svg {
             width: 163px;
             height: 21px;
