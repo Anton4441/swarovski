@@ -95,6 +95,7 @@
         display: flex;
         width: 100%;
         justify-content: space-between;
+        align-items: center;
     }
     
     .header_button {
@@ -251,6 +252,10 @@
         background: #fff;
     }
     
+    .header--scrolled .header_inner:hover {
+        background: #fff;
+    }
+    
     .header--scrolled .header_logo {
         width: 277px;
         height: 29px;
@@ -404,6 +409,7 @@
         padding: 10px;
         position: absolute;
         top: calc(644px/2 - 36px/2);
+        cursor: pointer;
     }
     
     .swiper-preview-next {
@@ -447,8 +453,9 @@
         max-width: 100vw;
     }
     
-    .goodsSwiper {
-        overflow: vis ible;
+    .wrapper .goodsSwiper {
+        overflow: visible;
+        width: 1289px;
     }
     
     .goodsSwiper .swiper-wrapper .swiper-slide {
@@ -506,12 +513,13 @@
     }
     
     .swiper-container .custom-scrollbar {
+        max-width: 1280px;
         height: 18px;
         box-shadow: inset 0 0 3px 0 rgba(0, 0, 0, 0.18);
         background: #ffffff;
         border-radius: 36px;
         padding: 5px;
-        margin-top: 32px;
+        margin: 32px auto 0 auto;
     }
     
     .custom-scrollbar .swiper-scrollbar-drag {
@@ -826,6 +834,9 @@
         .header_inner {
             background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.47) 90.87%, rgba(0, 0, 0, 0) 100%);
         }
+        .header_wrapper {
+            padding: 35px 0;
+        }
         .header_item-link {
             font-size: 24px;
             line-height: 120%;
@@ -1008,6 +1019,7 @@
         .swiper-preview-prev,
         .swiper-preview-next {
             top: calc(204px/2 - 36px/2);
+            cursor: pointer;
         }
         /* ==== */
         .collections {
