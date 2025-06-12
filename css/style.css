@@ -850,6 +850,9 @@
         .header_button {
             max-width: 80px;
         }
+        .search {
+            padding: 10px 15px;
+        }
         /* ====== */
         .hero_content {
             padding: 492px 0 66px;
